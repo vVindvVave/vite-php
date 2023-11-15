@@ -1,0 +1,39 @@
+{
+  "assets/logo.png": {
+    "file": "assets/logo-03d6d6da.png",
+    "src": "assets/logo.png"
+  },
+  "js/base.css": {
+    "file": "assets/base-ee7b92bd.css",
+    "src": "js/base.css"
+  },
+  "js/global.css": {
+    "file": "assets/global-01da63ad.css",
+    "src": "js/global.css"
+  },
+  "js/base.js": {
+    "file": "assets/base-ec808ebb.js",
+    "src": "js/base.js",
+    "isEntry": true,
+    "css": [
+      "assets/base-ee7b92bd.css"
+    ]
+  },
+  "js/global.js": {
+    "file": "assets/global-a165f12c.js",
+    "src": "js/global.js",
+    "isEntry": true,
+    "imports": [
+      "_vendor-d4dcb52e.js"
+    ],
+    "css": [
+      "assets/global-01da63ad.css"
+    ],
+    "assets": [
+      "assets/logo-03d6d6da.png"
+    ]
+  },
+  "_vendor-d4dcb52e.js": {
+    "file": "assets/vendor-d4dcb52e.js"
+  }
+}
